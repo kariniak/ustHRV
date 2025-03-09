@@ -6,6 +6,7 @@ This project investigates which statistical and spectral HRV measures may be rel
 ECG pre-processing was done using Acqknowledge 4.2 software (Biopac Systems Inc., USA), and HRV analysis was done using AcqKnowledge 5.0 software (Biopac Systems Inc., USA).
 
 ECG pre-processing
+
 Before starting processing the data, please make sure you know what the normal ECG signal looks like. You can use the sample data files provided by Biopac in the first window that opens after executing the program: ‘ECG_LeadII’.
 1.	Load the ECG file: File -> Open
 2.	If the ECG signal is longer than 5 min -> trim it at the beginning and end so that precisely 5 min of recording is left (no cycle was cut in between): Edit -> Cut
